@@ -1,1 +1,13 @@
-/* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    @apply bg-gray-950 text-white;
+}
+
+#agregar {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
